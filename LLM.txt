@@ -1,0 +1,111 @@
+# AutomaticCSS Documentation Repository - LLM Search Guide
+
+## Repository Overview
+This repository contains 172 comprehensive AutomaticCSS (ACSS) documentation pages extracted from automaticcss.com. The content covers the complete utility-first CSS framework designed for professional web development.
+
+## Content Categories
+
+### 1. Framework Core (`docs/`)
+- **Utility Classes**: Spacing, typography, layout, display classes
+- **Color System**: Semantic colors, palette setup, color relationships
+- **Typography**: Fluid text, heading styles, line length controls
+- **Spacing System**: Smart spacing, contextual spacing, section padding
+
+### 2. Layout & Grid Systems
+- **Auto Grids**: Flexible grid systems and responsive layouts
+- **Content Grid**: Page layout and content organization
+- **Flexbox Classes**: Flexible box layout utilities
+- **Breakpoint System**: Responsive design breakpoints
+
+### 3. Components & UI Elements
+- **Button Framework**: Button classes, mixins, styling, recipes
+- **Card Framework**: Card containers and layouts
+- **Form Styling**: Input styling and form organization
+- **Icon Framework**: Icon management and styling
+
+### 4. Advanced Features
+- **CSS Functions**: rem(), fluid(), calc(), pow(), percent() functions
+- **Mixins**: Reusable CSS patterns and utilities
+- **Variables**: CSS custom properties and system setup
+- **FLIP Plugin**: Layout animation capabilities
+
+## Search Strategies for LLM Agents
+
+### 1. Utility Classes & Properties
+**Query patterns:**
+- "ACSS [property] classes" → Look for specific utility class docs
+- "Spacing utilities" → Check margin-classes, padding-classes, gap-utilities
+- "Typography classes" → Search text-classes, heading-text-style-mixins
+
+**Examples:**
+- Margin: `margin-classes/`
+- Padding: `padding-classes/`, `section-padding-classes/`
+- Typography: `text-classes/`, `fluid-text/`, `fluid-headings/`
+- Colors: `background-color-classes/`, `semantic-colors/`
+
+### 2. Layout & Responsive Design
+**Query patterns:**
+- "Grid system" → Look in auto-grids/, content-grid/, grid-classes-standard/
+- "Responsive [feature]" → Check breakpoint-mixins/, website-width-breakpoints/
+- "Flexbox" → Search flexbox-classes/, flex-grids-flexbox-grids/
+
+### 3. Component Development
+**Query patterns:**
+- "Button styling" → Navigate to buttons/, button-classes/, button-mixins/
+- "Card components" → Check card-container-mixin/, card-framework/
+- "Form styling" → Look in form-styling-basics/
+
+### 4. Functions & Advanced CSS
+**Query patterns:**
+- "CSS functions" → Search calc/, fluid-function/, rem-function/, pow-function/
+- "Custom properties" → Look in variables/, css-columns/, custom-property-recipes/
+- "Mixins" → Check border-mixin/, center-mixin/, icon-mixin/
+
+## File Naming Convention
+All files follow descriptive folder names based on feature/utility type.
+
+## Search Tips for AI Agents
+
+1. **Feature-based Search**: Navigate by CSS feature or utility type
+2. **Component Search**: Look for complete component systems (buttons, cards, forms)
+3. **Function Search**: Find CSS functions and mixins for advanced functionality
+4. **Setup Search**: Look for installation and configuration guides
+5. **Recipe Search**: Find pre-built solutions and patterns
+
+## Common Search Scenarios
+
+### Getting Started
+- Installation: `how-to-install-acss/`
+- Setup guides: `how-to-setup-acss-with-*` folders
+- Basic concepts: `utility-classes-what-why/`
+
+### Styling Implementation
+- Spacing: `margin-classes/`, `padding-classes/`, `smart-spacing/`
+- Typography: `text-classes/`, `typography-variables/`, `default-typography-styling/`
+- Colors: `semantic-colors/`, `palette-setup/`, `automatic-color-relationships/`
+- Layout: `auto-grids/`, `content-grid/`, `flexbox-classes/`
+
+### Component Building
+- Buttons: `buttons/`, `button-classes/`, `button-mixins/`, `button-recipes/`
+- Cards: `card-framework/`, `card-container-mixin/`
+- Forms: `form-styling-basics/`
+- Icons: `icon-framework/`, `icon-mixin/`
+
+### Advanced Features
+- Functions: `rem-function/`, `fluid-function/`, `calc/`, `pow-function/`
+- Animations: `transition/`, `flip-classes/`
+- Accessibility: `accessibility-recipes/`, `hidden-accessible-class/`
+- Performance: `pro-mode/`, `real-time-dashboard/`
+
+### Builder Integration
+- Oxygen: `setting-up-acss-with-oxygen/`
+- Bricks: `how-to-setup-acss-with-bricks-builder/`, `bricks-button-ui-compatibility/`
+- Breakdance: `setting-up-acss-with-breakdance/`
+- Cwicly: `setting-up-acss-with-cwicly/`
+
+## Integration Notes for MCP Server
+- Each folder contains specific documentation for one feature/utility
+- Content includes practical examples and implementation details
+- Files contain source URLs for verification
+- Framework follows utility-first methodology
+- Comprehensive builder integrations available
